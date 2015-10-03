@@ -11,6 +11,21 @@
         <title>Hello World</title>
     </head>
     <body>
+<<<<<<< HEAD
+		<div data-role="panel" id="panel-1">
+			<ul data-role="listview" id="listview-1">
+				<li><a href="#page-1">New Contact</a></li>
+				<li><a href="#e_contacts">Enterprise Contacts</a></li>
+				<li><a href="#page-3">Device Contacts</a></li>
+			</ul>
+		</div>
+		<div data-role="page" id="page-1">
+			<div data-role="header">
+				<a href="#panel-1" id="button-1" class="ui-btn ui-icon-bars ui-btn-icon-right ui-corner-all">menu</a>
+				<h1>New Contact</h1>
+			</div>
+			<form name="reg" id="reg" data-ajax="false">
+=======
 		
 		<!----------------------------------  Panel: Main Menu ----------------------------------------->
 		<div data-role="panel" id="main-menu-panel">
@@ -35,6 +50,7 @@
 				<h1>New Contact</h1>
 			</div>
 			<form name="postForm" id="postForm" data-ajax="false">
+>>>>>>> 990d91255227238016150666c4606221902d663b
 				 <fieldset>
 					<div data-role="content">
 						<div class="ui-field-contain">
@@ -49,6 +65,15 @@
 							<input name="email" id="email" data-clear-btn="true" value="" placeholder="Email" type="email"/>
 							<input name="contactPhone" id="contactPhone" data-clear-btn="true" value="" placeholder="Phone" type="tel"/>
 						</div>
+<<<<<<< HEAD
+						<div class="ui-field-contain">
+							<label for="birth_day">Birth Day</label>
+							<input name="birth_day" id="birth_day" data-clear-btn="true" value="" type="date"/>
+						</div>
+						<div id="formMsgs">Form Messages</div>
+						<div class="ui-grid-a app-responsive">
+			                <div class="ui-block-a"><input type="submit" id="register" value="Add" data-theme="b"/></div>
+=======
 						<div id="formMsgs"></div>
 						<div class="ui-grid-a app-responsive ui-field-contain">
 			                <div class="ui-block-a">&nbsp;</div>
@@ -129,12 +154,28 @@
 						<div id="formMsgs"></div>
 						<div class="ui-grid-a app-responsive ui-field-contain">
 			                <div class="ui-block-a"><input type="submit" id="updateSubmit" value="Update" data-theme="b"/></div>
+>>>>>>> 990d91255227238016150666c4606221902d663b
 			                <div class="ui-block-b"><input type="button" name="cancel" id="cancel" value="Reset"/></div>
 			            </div>
 					</div>
 				</fieldset>
 			</form>
 			<div data-role="footer">
+<<<<<<< HEAD
+				<h4>New Contact</h4>
+			</div>
+		</div>
+		<div data-role="page" id="e_contacts">
+			<div data-role="header">
+				<a href="#panel-1" id="button-1" class="ui-btn ui-icon-bars ui-btn-icon-right ui-corner-all">menu</a>
+				<h1>Enterprise Contacts</h1>
+			</div>
+			<div data-role="content">
+				<ul data-role="listview" id="e_contacts_list">
+					<li>Item 1</li>
+					<li>Item 2</li>
+					<li>Item 3</li>
+=======
 				<h4>Update Contact</h4>
 			</div>
 		</div>
@@ -164,12 +205,18 @@
 					<li>Item 3
 						<ul><li>test 1</li><li>test 2</li></ul>
 					</li>
+>>>>>>> 990d91255227238016150666c4606221902d663b
 				</ul> 
 			</div>
 			<div data-role="footer">
 				<h4>Enterprise Contacts</h4>
 			</div>
 		</div>
+<<<<<<< HEAD
+		<div data-role="page" id="page-3">
+			<div data-role="header">
+				<a href="#panel-1" id="button-1" class="ui-btn ui-icon-bars ui-btn-icon-right ui-corner-all">menu</a>
+=======
 		
 		<!----------------------------------  PAGE: Device Contacts List ----------------------------------------->
 		 
@@ -177,6 +224,7 @@
 		<div data-role="page" id="device_contacts_list_page">
 			<div data-role="header">
 				<a href="#main-menu-panel" id="button-1" class="ui-btn ui-icon-bars ui-btn-icon-right ui-corner-all" data-transition="slide" data-direction="reverse">menu</a>
+>>>>>>> 990d91255227238016150666c4606221902d663b
 				<h1>Device Contacts</h1>
 			</div>
 			<div data-role="content">
@@ -193,9 +241,13 @@
 					</ul> 
 			</div>
 		</div>
+<<<<<<< HEAD
+        <script type="text/javascript" src="cordova.js"></script>
+=======
 		 -->
 		  
          <script type="text/javascript" src="cordova.js"></script>
+>>>>>>> 990d91255227238016150666c4606221902d663b
         <script type="text/javascript" src="js/index.js"></script>
     </body>
 </html>
