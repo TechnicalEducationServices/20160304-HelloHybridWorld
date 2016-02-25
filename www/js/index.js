@@ -135,7 +135,7 @@ var app = {
     getContacts: function() {
     	
     	// Get ENTERPRISE Contacts
-    	$.getJSON("http://192.168.1.23:8080/ETAPP-REST-1/contacts", function(contacts) {
+    	$.getJSON("<backend_contacts_url>", function(contacts) {
     	    $("#enterprise_contacts_listview").empty();
     	    var items = [];
     	    var contactItem = "";
@@ -143,7 +143,7 @@ var app = {
     	    var contactForm = null;
     	    
     	    $.each(contacts, function(index, contact) {
-    	       //console.log("item: " + index + " " + contact.firstName + " city: " + contact.city);
+    	       //console.log("item: " s+ index + " " + contact.firstName + " city: " + contact.city);
     	       
     	    	// Hidden Contact Form
     	       contactForm = '<form id="' + contact.id + 'HiddenForm" data-ajax="false">';
