@@ -135,7 +135,7 @@ var app = {
     getContacts: function() {
     	
     	// Get ENTERPRISE Contacts
-    	$.getJSON("<backend_contacts_url>", function(contacts) {
+    	$.getJSON("http://192.168.1.23:8080/ETAPP-REST-1/contacts", function(contacts) {
     	    $("#enterprise_contacts_listview").empty();
     	    var items = [];
     	    var contactItem = "";
