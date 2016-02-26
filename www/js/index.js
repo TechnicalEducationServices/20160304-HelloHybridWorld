@@ -193,7 +193,7 @@ var app = {
         var contactData = JSON.stringify(contactForm);
     	
         $.ajax({
-            url: 'http://10.126.87.99:8080/ETAPP-REST-1/contacts',
+            url: 'http://192.168.1.23:8080/ETAPP-REST-1/contacts',
             contentType: 'application/json',
             dataType: 'text',
             type: 'post',
