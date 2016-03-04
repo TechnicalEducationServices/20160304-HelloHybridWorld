@@ -1,5 +1,3 @@
-Update: Removed old image files, added new images for MongoDB defaults, and updated the default IP for the MongoDB instance in the lab #11
-
 Hello Hybrid World!
 ===================
 
